@@ -65,4 +65,5 @@
   'Cms\\Classes\\PartialCode' => 'modules/cms/classes/PartialCode.php',
   'Cms\\Classes\\MediaViewHelper' => 'modules/cms/classes/MediaViewHelper.php',
   'System\\Models\\RequestLog' => 'modules/system/models/RequestLog.php',
+  'System\\Models\\LogSetting' => 'modules/system/models/LogSetting.php',
 );
