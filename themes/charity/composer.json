@@ -1,20 +1,16 @@
 {
-    "name": "october/demo-theme",
+    "name": "alphao/charity-demo-theme",
     "type": "october-theme",
-    "description": "Demo OctoberCMS theme",
-    "keywords": ["october", "cms", "demo", "theme"],
+    "description": "Charity theme",
+    "keywords": ["cms", "demo", "theme"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexey Bobkov",
-            "email": "aleksey.bobkov@gmail.com",
+            "name": "Alpha Olomi",
+            "email": "alphaolomi@gmail.com",
             "role": "Co-founder"
         },
-        {
-            "name": "Samuel Georges",
-            "email": "daftspunky@gmail.com",
-            "role": "Co-founder"
-        }
+
     ],
     "require": {
         "php": ">=5.4",
