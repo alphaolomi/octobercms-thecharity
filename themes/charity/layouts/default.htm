@@ -2,27 +2,17 @@ description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
-    <head>        
+    <head>
         <meta charset="utf-8">
-        <title>Charity - {{ this.page.title }}</title>
+        <title>October CMS - {{ this.page.title }}</title>
         <meta name="description" content="{{ this.page.meta_description }}">
         <meta name="title" content="{{ this.page.meta_title }}">
-        <meta name="author" content="Alpha Olomi">        
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
         <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
-        <!-- FontAwesome CSS -->
-        <link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">
-        <!-- ElegantFonts CSS -->
-        <link rel="stylesheet" href="{{ 'assets/css/elegant-fonts.css'|theme }}">
-        <!-- themify-icons CSS -->
-        <link rel="stylesheet" href="{{ 'assets/css/themify-icons.css'|theme }}">
-        <!-- Swiper CSS -->
-        <link rel="stylesheet" href="{{ 'assets/css/swiper.min.css'|theme }}">
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
         {% styles %}
     </head>
     <body>
@@ -43,18 +33,9 @@ description = "Default layout"
         </footer>
 
         <!-- Scripts -->
-        <!-- <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
         <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
-        <script src="{{ 'assets/javascript/app.js'|theme }}"></script> -->
-
-        <script src="{{ 'assets/javascript/jquery.js'|theme }}"></script>
-        <script src="{{ 'assets/javascript/jquery.collapsible.min.js'|theme }}"></script>
-        <script src="{{ 'assets/javascript/swiper.min.js'|theme }}"></script>
-        <script src="{{ 'assets/javascript/jquery.countdown.min.js'|theme }}"></script>
-        <script src="{{ 'assets/javascript/circle-progress.min.js'|theme }}"></script>
-        <script src="{{ 'assets/javascript/jquery.countTo.min.js'|theme }}"></script>
-        <script src="{{ 'assets/javascript/jquery.barfiller.js'|theme }}"></script>
-        <script src="{{ 'assets/javascript/custom.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
         {% framework extras %}
         {% scripts %}
 
